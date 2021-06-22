@@ -166,13 +166,13 @@ SELECT CONVERT(INT,CONVERT(VARCHAR,dl.FullDate,112)) as DateKey
 
    when 'Tuesday' then 'Martes'  
 
-   when 'Wednesday' then 'Miércoles'  
+   when 'Wednesday' then 'MiÃ©rcoles'  
 
    when 'Thursday' then 'Jueves'  
 
    when 'Friday' then 'Viernes'  
 
-   when 'Saturday' then 'Sábado'  
+   when 'Saturday' then 'SÃ¡bado'  
 
    when 'Sunday' then 'Doming'  
 
@@ -238,7 +238,7 @@ end as SpanishMonthName
 
    when 'January' then 'Janvier'  
 
-   when 'February' then 'Février'  
+   when 'February' then 'FÃ©vrier'  
 
    when 'March' then 'Mars'  
 
@@ -250,7 +250,7 @@ end as SpanishMonthName
 
    when 'July' then 'Juillet'  
 
-   when 'August' then 'Août'  
+   when 'August' then 'AoÃ»t'  
 
    when 'September' then 'Septembre'  
 
@@ -258,7 +258,7 @@ end as SpanishMonthName
 
    when 'November' then 'Novembre'  
 
-   when 'December' then 'Décembre'  
+   when 'December' then 'DÃ©cembre'  
 
 end as FrenchMonthName 
 
@@ -464,7 +464,7 @@ ALTER TABLE [dbo].[FactSurveyResponse] CHECK CONSTRAINT [FK_FactSurveyResponse_D
 end 
 
 
--- The above Query was an Online Update for the Database. Values where outdated so in this way it´s all set up to start the ETL --
+-- The above Query was an Online Update for the Database. Values where outdated so in this way itÂ´s all set up to start the ETL --
 -- This project will follow the request from the Manager, so it's similar to a ticket --
 
 -- Cleansed DIM_Date Table. Commented out what I will not use and use of AS so I can use them later on more easily --
